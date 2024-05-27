@@ -42,14 +42,7 @@ st.subheader("Click the button below for a surprise!")
 
 # Button to reveal the surprise
 if st.button("Click Me!", key="surprise-button"):
-    surprise_messages = [
-        "You are the sunshine in my life!",
-        "Every moment with you is a treasure!",
-        "You make my heart skip a beat!",
-        "I love you more than words can say!",
-        "You are my one and only, Anushri!"
-    ]
-    surprise_message = random.choice(surprise_messages)
+    surprise_message = "You are the sunshine in my life!, Every moment with you is a treasure! \n You make my heart skip a beat! \nI love you more than words can say! \n You are my one and only, Anushri!"
     st.balloons()
     st.success(surprise_message)
 
